@@ -2,9 +2,11 @@
 
 ## Overview
 
-This repository provides an implementation of the **Local Outlier Probability (LoOP)** algorithm in Python. LoOP is a density-based anomaly detection algorithm that assigns each data point a probabilistic score indicating its likelihood of being an outlier.
+This repository provides an implementation of the **Local Outlier Probability (LoOP)** algorithm in Python.
+LoOP is a density-based anomaly detection algorithm that assigns each data point a probabilistic score indicating its likelihood of being an outlier.
 
-Unlike traditional methods that only classify points as outliers or not, LoOP outputs continuous probability scores, making it easier to interpret and set threshold values for practical applications.
+Unlike traditional methods that only classify points as outliers or not, LoOP outputs continuous probability scores, 
+making it easier to interpret and set threshold values for practical applications.
 
 ## Features
 
@@ -13,6 +15,9 @@ Unlike traditional methods that only classify points as outliers or not, LoOP ou
 - **Local density calculation:** Evaluates outliers based on local neighborhood densities.
 - **Visualization:** Provides clear visualizations highlighting detected anomalies.
 
+![](LoOp.png)
+
+
 ## Repository Structure
 
 ```
@@ -20,7 +25,7 @@ LoOP-Algorithm
 ├── README.md
 ├── loop_algorithm.py
 └── data
-    └── enhanced_data.csv
+    └── data.csv
 ```
 
 - **loop_algorithm.py:** Python implementation of the LoOP algorithm.
@@ -66,3 +71,10 @@ python loop_algorithm.py
 - **Manufacturing Quality Control**
 - **Anomaly Detection in Sensor Data**
 
+## Reference
+
+This project is based on the following paper:
+
+Kriegel, H. P., Kröger, P., Schubert, E., & Zimek, A. (2009).  
+LoOP: local outlier probabilities. In Proceedings of the 18th ACM conference on Information and knowledge management (CIKM '09), 1649-1652. ACM.  
+https://doi.org/10.1145/1645953.1646195

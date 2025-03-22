@@ -110,7 +110,7 @@ class LoOp:
 
 if __name__ == '__main__':
     # Parameters
-    file_path = "data/updated_enhanced_data.csv"
+    file_path = "data/data.csv"
     lmbda = 3  # lambda parameter (usually between 1-3)
     K = 5      # number of nearest neighbors
 
